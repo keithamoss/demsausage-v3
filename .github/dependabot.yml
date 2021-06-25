@@ -1,0 +1,62 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/admin"
+  schedule:
+    interval: weekly
+    day: saturday
+    time: "09:30"
+    timezone: Australia/Perth
+  open-pull-requests-limit: 99
+  ignore:
+  - dependency-name: eslint
+    versions:
+    - 7.24.0
+  - dependency-name: "@types/react-router-redux"
+    versions:
+    - 5.0.18
+  - dependency-name: react-router
+    versions:
+    - 5.2.0
+  - dependency-name: "@types/react-router"
+    versions:
+    - 5.1.13
+- package-ecosystem: pip
+  directory: "/django"
+  schedule:
+    interval: weekly
+    day: saturday
+    time: "09:30"
+    timezone: Australia/Perth
+  open-pull-requests-limit: 99
+  ignore:
+  - dependency-name: django
+    versions:
+    - 3.1.8
+- package-ecosystem: npm
+  directory: "/public"
+  schedule:
+    interval: weekly
+    day: saturday
+    time: "09:30"
+    timezone: Australia/Perth
+  open-pull-requests-limit: 99
+  ignore:
+  - dependency-name: eslint-plugin-react
+    versions:
+    - 7.23.2
+  - dependency-name: eslint
+    versions:
+    - 7.24.0
+  - dependency-name: material-ui-fullscreen-dialog
+    versions:
+    - 1.1.0
+  - dependency-name: "@types/react-router-redux"
+    versions:
+    - 5.0.18
+  - dependency-name: "@types/react-router"
+    versions:
+    - 5.1.13
+  - dependency-name: react-router
+    versions:
+    - 5.2.0
