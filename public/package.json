@@ -19,7 +19,7 @@
     "material-ui-fullscreen-dialog": "^0.7.2",
     "material-ui-responsive-drawer": "^1.19.4",
     "material-ui-search-bar": "^0.4.2",
-    "ol": "^6.5.0",
+    "ol": "^6.6.1",
     "qs": "^6.10.1",
     "raf": "^3.4.1",
     "react": "^17.0.2",
